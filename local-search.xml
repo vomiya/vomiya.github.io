@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>MySQL数据库</title>
+    <link href="/2021/03/01/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <url>/2021/03/01/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    
+    <content type="html"><![CDATA[<p>CMD窗口命令：<br>1.连接数据库：mysql -uroot -p123456  (账户root,密码123456)<br>2.修改MySQL密码：update mysql.user set authentication_string=password(‘123456’) where user=’root’ and Host = ‘localhost’;<br>3.刷新权限：flush privileges;<br>4.查看所有数据库：show databases;<br>5.切换数据库：mysql&gt; use school;(数据库名：school)<br>6.查看数据库中所有表：show tables;<br>7.显示数据库中所有表得信息：describe student;(表名：student)</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数据库</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>数据库</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>my-second-blog</title>
     <link href="/2021/02/25/my-second-blog/"/>
     <url>/2021/02/25/my-second-blog/</url>
